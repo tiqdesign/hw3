@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+   <style name="bc">
+     <item name="android:textColor">@color/btn_b1</item>
+     <item name="android:text">@string/button_call</item>
+     <item name="android:layout_width">match_parent</item>
+     <item name="android:layout_height">wrap_content</item>
+   </style>
+
+  <style name="bs">
+    <item name="android:textColor">@color/btn_b1</item>
+    <item name="android:text">@string/button_sendM</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name="tv">
+    <item name="android:textColor">@color/tx_t1</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+  </style>
+
+  <style name="tv_9">
+    <item name="android:textColor">@color/tx_t1</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">9dp</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+  </style>
+
+  <style name="tv_8">
+    <item name="android:textColor">@color/tx_t1</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">8dp</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+  </style>
+
+ 
+  <style name="ll_h">
+    <item name="android:background">@color/ln_l2</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:minWidth">25px</item>
+    <item name="android:minHeight">25px</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">match_parent</item>
+  </style>
+
+  <style name="ll_v">
+    <item name="android:background">@color/ln_l2</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:minWidth">25px</item>
+    <item name="android:minHeight">25px</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">match_parent</item>
+  </style>
+
+
+  <style name="gr" >
+    <item name="android:minWidth">25px</item>
+    <item name="android:minHeight">25px</item>
+    <item name="android:padding">4dp</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:rowCount">6</item>
+    <item name="android:columnCount">2</item>
+    <item name="android:background">@color/ln_l2</item>
+  </style>
+
+  <style name="ll_send">
+    <item name="android:background">@color/ln_l1</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:minWidth">25px</item>
+    <item name="android:minHeight">25px</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">80.0dp</item>
+  </style>
+
+  <style name="et">
+    <item name="android:textColor">@color/tx_t1</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+  </style>
+
+
+</resources>

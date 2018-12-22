@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<GridLayout
+		style="@style/gr"
+		android:id="@+id/gridLayout1">
+
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			style="@style/ll_h"
+			android:id="@+id/linearLayout1">
+			
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout13">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView11" />
+			</LinearLayout>
+		
+		    <LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout14">
+				<TextView
+					android:text="Ahmet Ar."
+					style="@style/tv"
+					android:id="@+id/textView9" />
+				<TextView
+					android:text="aarslan2@anadolu.edu.tr"
+				    style="@style/tv_9"
+					android:id="@+id/textView10" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button2" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button1" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout2"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout23">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView12" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout24">
+				<TextView
+					android:text="Yaşar H."
+					style="@style/tv"
+					android:id="@+id/textView29" />
+				<TextView
+					android:text="hoscan@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView20" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button12" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button13" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout3"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout33">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView13" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout34">
+				<TextView
+					android:text="Serkan G."
+					style="@style/tv"
+					android:id="@+id/textView39" />
+				<TextView
+						android:text="serkangunal@anadolu.edu.tr"
+					style="@style/tv_8"
+					android:id="@+id/textView30" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button32" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button33" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout4">
+
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout43">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView14" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout44">
+				<TextView
+					android:text="Cihan K."
+					style="@style/tv"
+					android:id="@+id/textView49" />
+				<TextView
+					android:text="ckaleli@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView40" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button42" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button43" />
+			</LinearLayout>
+				</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout5"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+			style="@style/ll_h"
+				android:id="@+id/linearLayout53">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView15" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout54">
+				<TextView
+					android:text="Alper K."
+					style="@style/tv"
+					android:id="@+id/textView59" />
+				<TextView
+					android:text="akuysal@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView50" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button52" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button53" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout6"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout63">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView16" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout64">
+				<TextView
+					android:text="Alper B."
+					style="@style/tv"
+					android:id="@+id/textView69" />
+				<TextView
+					android:text="abilge@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView60" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button62" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button63" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout7"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout73">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView17" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout74">
+				<TextView
+					android:text="Sevcan Y."
+					style="@style/tv"
+					android:id="@+id/textView79" />
+				<TextView
+					android:text="sevcany@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView70" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button72" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button73" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout8"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout83">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView18" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout84">
+				<TextView
+					android:text="Burcu Y."
+				style="@style/tv"
+					android:id="@+id/textView89" />
+				<TextView
+					android:text="byurekli@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView80" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button82" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button83" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout9"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout93">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView19" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout94">
+				<TextView
+					android:text="Özgür Ö."
+				style="@style/tv"
+					android:id="@+id/textView99" />
+				<TextView
+					android:text="oozsen@anadolu.edu.tr"
+				style="@style/tv_9"
+					android:id="@+id/textView90" />
+				<Button
+				style="@style/bc"
+					android:id="@+id/button92" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button93" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout10"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout103">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView20" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout104">
+				<TextView
+					android:text="Emre K."
+					style="@style/tv"
+					android:id="@+id/textView109" />
+				<TextView
+					android:text="emrekacmaz@anadolu.edu.tr"
+					style="@style/tv_8"
+					android:id="@+id/textView190" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button192" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button193" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout11"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+				style="@style/ll_h"
+				android:id="@+id/linearLayout113">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView21" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout114">
+				<TextView
+					android:text="Reha O."
+				style="@style/tv"
+					android:id="@+id/textView119" />
+				<TextView
+					android:text="roaltug@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView191" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button122" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button123" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="2"
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout12"
+			android:layout_marginTop="0.0dp">
+			<LinearLayout
+			style="@style/ll_h"
+				android:id="@+id/linearLayout123">
+				<ImageView
+					android:src="@android:drawable/ic_menu_gallery"
+					android:layout_width="100dp"
+					android:layout_height="120dp"
+					android:id="@+id/ımageView22" />
+			</LinearLayout>
+			<LinearLayout
+				style="@style/ll_v"
+				android:id="@+id/linearLayout124">
+				<TextView
+					android:text="Alper Y."
+					style="@style/tv"
+					android:id="@+id/textView129" />
+				<TextView
+					android:text="ayargic@anadolu.edu.tr"
+					style="@style/tv_9"
+					android:id="@+id/textView173" />
+				<Button
+					style="@style/bc"
+					android:id="@+id/button172" />
+				<Button
+					style="@style/bs"
+					android:id="@+id/button173" />
+			</LinearLayout>
+		</LinearLayout>
+	</GridLayout>
+</LinearLayout>
+</ScrollView>
